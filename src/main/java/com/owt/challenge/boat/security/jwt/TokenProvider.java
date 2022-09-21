@@ -1,6 +1,5 @@
 package com.owt.challenge.boat.security.jwt;
 
-import com.owt.challenge.boat.security.UserDetailsImpl;
 import io.jsonwebtoken.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

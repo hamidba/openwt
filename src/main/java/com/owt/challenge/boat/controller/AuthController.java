@@ -1,9 +1,9 @@
 package com.owt.challenge.boat.controller;
 
 
-import com.owt.challenge.boat.controller.response.JwtResponse;
 import com.owt.challenge.boat.controller.request.LoginRequest;
 import com.owt.challenge.boat.controller.request.RegisterRequest;
+import com.owt.challenge.boat.controller.response.JwtResponse;
 import com.owt.challenge.boat.controller.response.RegisterResponse;
 import com.owt.challenge.boat.domain.User;
 import com.owt.challenge.boat.service.UserService;

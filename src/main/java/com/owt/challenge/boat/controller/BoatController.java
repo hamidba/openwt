@@ -3,7 +3,6 @@ package com.owt.challenge.boat.controller;
 import com.owt.challenge.boat.controller.dto.BoatDTO;
 import com.owt.challenge.boat.domain.Boat;
 import com.owt.challenge.boat.repository.BoatRepository;
-import com.owt.challenge.boat.service.BoatService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -15,7 +14,6 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
 import java.util.Objects;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RestController

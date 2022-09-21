@@ -4,8 +4,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.owt.challenge.boat.BoatApplication;
 import com.owt.challenge.boat.controller.request.LoginRequest;
 import com.owt.challenge.boat.controller.request.RegisterRequest;
-import com.owt.challenge.boat.domain.User;
-import com.owt.challenge.boat.repository.BoatRepository;
 import com.owt.challenge.boat.repository.UserRepository;
 import com.owt.challenge.boat.service.UserService;
 import org.junit.jupiter.api.Test;
@@ -17,7 +15,6 @@ import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.web.servlet.MockMvc;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
