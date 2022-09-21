@@ -1,0 +1,9 @@
+spring:
+ datasource:
+  url: jdbc:postgresql://localhost:5432/boat #To Be updated with prod DB url
+  username: admin
+  password: admin
+
+ jpa:
+  database-platform: org.hibernate.dialect.PostgreSQLDialect
+

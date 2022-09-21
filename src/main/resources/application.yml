@@ -1,0 +1,16 @@
+server:
+ port: 8080
+
+
+spring:
+ application:
+  name: 'Boat App'
+
+ profiles:
+  active: local
+
+boat:
+ app:
+  jwt:
+   expiration: 76300000
+   secret: change_me
