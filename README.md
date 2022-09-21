@@ -30,6 +30,13 @@ cd frontend && npm start
 
 Then navigate to [http://localhost:3000](http://localhost:3000) in your browser.
 
+The default credentials are : 
+
+```
+Login : user
+Password: user
+```
+
 ## Packaging as jar
 
 To build the final jar and optimize the application for production, run:
